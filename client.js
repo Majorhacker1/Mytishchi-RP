@@ -12,7 +12,7 @@ BreackGraph.BreackAll = true;
 // ���������� ���������� ������
 Ui.GetContext().QuadsCount.Value = true;
 // ��� ������������ �����
-Build.GetContext().Pipette.Value = true;
+Build.GetContext().Pipette.Value = false;
 Build.GetContext().BalkLenChange.Value = true;
 Build.GetContext().SetSkyEnable.Value = true;
 Build.GetContext().GenMapEnable.Value = true;
