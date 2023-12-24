@@ -30,7 +30,17 @@
           "Name": "BlackTeam", 
           "DisplayName": "Bandits and Terrorists",
           "Default": true
-         }
+         },
+         {
+          "Name": "FriendlyFire",
+          "DisplayName": "FriendlyFire",
+          "Default": false
+        }, 
+        {
+          "Name": "Damage",
+          "DisplayName": "Damage",
+          "Default": true
+        },  
       ]
     }
   }
