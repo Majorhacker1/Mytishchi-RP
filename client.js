@@ -32,13 +32,13 @@ Properties.GetContext().GameModeName.Value = "GameModes/Peace";
 red = GameMode.Parameters.GetBool("RedTeam");
 blue = GameMode.Parameters.GetBool("BlueTeam");
 if (red || !red && !blue) {
-	Teams.Add("Red", "Ministry of Internal Affairs", { r: 150 });
- Teams.Add("Black","Bandits and Terrorists", { p: 150});
- Teams.Add("Green","Military personnel",{ g: 150});	
+	Teams.Add("Red", "МВД", { r: 150 });
+ Teams.Add("Black","Люди,вне закона", { p: 150});
+ Teams.Add("Green","Военнослужащие",{ g: 150});	
 Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
 }
 if (blue || !red && !blue) {
-	Teams.Add("Blue", "Citizens", { b: 150 });
+	Teams.Add("Blue", "Граждане", { b: 150 });
 	Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
 	if(GameMode.Parameters.GetBool("BlueHasNothing")){
 		var inventory = Inventory.GetContext();
@@ -56,7 +56,7 @@ Teams.OnRequestJoinTeam.Add(function(player,team){team.Add(player);});
 Teams.OnPlayerChangeTeam.Add(function(player){ player.Spawns.Spawn()});
 
 // ������ ���������
-Ui.getContext().Hint.Value = "Welcome to Mytishchi RP";
+Ui.getContext().Hint.Value = "Добро пожаловать в Мытищи РП";
 
 // ������������ ���������
 var inventory = Inventory.GetContext();
