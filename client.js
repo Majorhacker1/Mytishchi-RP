@@ -12,18 +12,18 @@ BreackGraph.BreackAll = true;
 // ���������� ���������� ������
 Ui.GetContext().QuadsCount.Value = true;
 // ��� ������������ �����
-Build.GetContext().Pipette.Value = false;
-Build.GetContext().BalkLenChange.Value = true;
-Build.GetContext().SetSkyEnable.Value = true;
-Build.GetContext().GenMapEnable.Value = true;
+Build.GetContext().Pipette.Value = true;
+Build.GetContext().BalkLenChange.Value = false;
+Build.GetContext().SetSkyEnable.Value = false;
+Build.GetContext().GenMapEnable.Value = false;
 Build.GetContext().ChangeCameraPointsEnable.Value = true;
 Build.GetContext().QuadChangeEnable.Value = true;
-Build.GetContext().BuildModeEnable.Value = true;
-Build.GetContext().CollapseChangeEnable.Value = true;
+Build.GetContext().BuildModeEnable.Value = false;
+Build.GetContext().CollapseChangeEnable.Value = false;
 Build.GetContext().RenameMapEnable.Value = true;
-Build.GetContext().ChangeMapAuthorsEnable.Value = true;
+Build.GetContext().ChangeMapAuthorsEnable.Value = false;
 Build.GetContext().LoadMapEnable.Value = true;
-Build.GetContext().ChangeSpawnsEnable.Value = true;
+Build.GetContext().ChangeSpawnsEnable.Value = false;
 
 // ��������� ����
 Properties.GetContext().GameModeName.Value = "GameModes/Peace";
@@ -59,10 +59,10 @@ Ui.getContext().Hint.Value = "Welcome to Mytishchi RP";
 
 // ������������ ���������
 var inventory = Inventory.GetContext();
-inventory.Main.Value = true;
-inventory.Secondary.Value = true;
+inventory.Main.InfinityValue = true;
+inventory.Secondary.InfinityValue = true;
 inventory.Melee.Value = true;
-inventory.Explosive.Value = true;
+inventory.Explosive.InfinityValue = true;
 inventory.Build.Value = true;
 inventory.BuildInfinity.Value = true;
 
