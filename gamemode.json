@@ -1,0 +1,36 @@
+{
+    "Name": "Mytishchi RP - Beta Version",
+    "Description": "Бета версия РП режима от ᎷᎯᏠᎾᏒ ᏕᎾᏰᏒ",
+    "StartClientVersion": 334,
+    "ApiVersion": 2,
+    "MapLists__": [
+      {
+        "MapListId": 48860,
+        "Name": "Мытищи (Зима) "
+      }
+    ],
+    "Parameters": {
+      "Bool": [
+        {
+          "Name": "RedTeam",
+          "DisplayName": "Ministry of Internal Affairs",
+          "Default": true
+        },
+        {
+          "Name": "BlueTeam",
+          "DisplayName": "Citizens",
+          "Default": true
+        }, 
+        {
+          "Name": "GreenTeam",
+          "DisplayName": "Military personnel",
+          "Default": true
+        }, 
+        {
+          "Name": "BlackTeam", 
+          "DisplayName": "Bandits and Terrorists",
+          "Default": true
+         }
+      ]
+    }
+  }
