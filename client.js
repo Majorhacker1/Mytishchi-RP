@@ -31,11 +31,12 @@ Properties.GetContext().GameModeName.Value = "GameModes/Peace";
 red = GameMode.Parameters.GetBool("RedTeam");
 blue = GameMode.Parameters.GetBool("BlueTeam");
 if (red || !red && !blue) {
-	Teams.Add("Red", "Teams/Red", { r: 1 });
-	Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
+	Teams.Add("Red", "Ministry of Internal Affairs", { r: 150 });
+ Teams.Add("Black","Bandits and Terrorists", { b: 150});
+ Teams.Add("Green","Military personnel",{ g: 150});	Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
 }
 if (blue || !red && !blue) {
-	Teams.Add("Blue", "Teams/Blue", { b: 1 });
+	Teams.Add("Blue", "Citizens", { b: 150 });
 	Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
 	if(GameMode.Parameters.GetBool("BlueHasNothing")){
 		var inventory = Inventory.GetContext();
@@ -53,14 +54,14 @@ Teams.OnRequestJoinTeam.Add(function(player,team){team.Add(player);});
 Teams.OnPlayerChangeTeam.Add(function(player){ player.Spawns.Spawn()});
 
 // ������ ���������
-Ui.getContext().Hint.Value = "Hint/BuildBase";
+Ui.getContext().Hint.Value = "Welcome to Mytishchi RP";
 
 // ������������ ���������
 var inventory = Inventory.GetContext();
-inventory.Main.Value = false;
-inventory.Secondary.Value = false;
+inventory.Main.Value = true;
+inventory.Secondary.Value = true;
 inventory.Melee.Value = true;
-inventory.Explosive.Value = false;
+inventory.Explosive.Value = true;
 inventory.Build.Value = true;
 inventory.BuildInfinity.Value = true;
 
@@ -68,4 +69,4 @@ inventory.BuildInfinity.Value = true;
 Build.GetContext().BlocksSet.Value = BuildBlocksSet.AllClear;
 
 // ������������ �����
-Spawns.GetContext().RespawnTime.Value = 0;
+Spawns.GetContext().RespawnTime.Value = 5;
