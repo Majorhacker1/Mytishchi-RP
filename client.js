@@ -1,4 +1,5 @@
 // ��������� ��������� �������� �������
+Damage.FriendlyFire = GameMode.Parameters.GetBool("FriendlyFire");
 Damage.GetContext().DamageOut.Value = GameMode.Parameters.GetBool("Damage");
 BreackGraph.OnlyPlayerBlocksDmg = GameMode.Parameters.GetBool("PartialDesruction");
 BreackGraph.WeakBlocks = GameMode.Parameters.GetBool("LoosenBlocks");
