@@ -33,7 +33,8 @@ blue = GameMode.Parameters.GetBool("BlueTeam");
 if (red || !red && !blue) {
 	Teams.Add("Red", "Ministry of Internal Affairs", { r: 150 });
  Teams.Add("Black","Bandits and Terrorists", { b: 150});
- Teams.Add("Green","Military personnel",{ g: 150});	Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
+ Teams.Add("Green","Military personnel",{ g: 150});	
+Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
 }
 if (blue || !red && !blue) {
 	Teams.Add("Blue", "Citizens", { b: 150 });
