@@ -1,6 +1,6 @@
 {
     "Name": "Mytishchi RP - Beta Version",
-    "Description": "Бета версия РП режима от ᎷᎯᏠᎾᏒ ᏕᎾᏰᏒ",
+    "Description": "Бета версия, РП режима от ᎷᎯᏠᎾᏒ ᏕᎾᏰᏒ",
     "StartClientVersion": 334,
     "ApiVersion": 2,
     "MapLists__": [
@@ -13,32 +13,32 @@
       "Bool": [
         {
           "Name": "RedTeam",
-          "DisplayName": "Ministry of Internal Affairs",
+          "DisplayName": "МВД",
           "Default": true
         },
         {
           "Name": "BlueTeam",
-          "DisplayName": "Citizens",
+          "DisplayName": "Гражданские",
           "Default": true
         }, 
         {
           "Name": "GreenTeam",
-          "DisplayName": "Military personnel",
+          "DisplayName": "Военнослужащие",
           "Default": true
         }, 
         {
           "Name": "BlackTeam", 
-          "DisplayName": "Bandits and Terrorists",
+          "DisplayName": " Люди, вне закона",
           "Default": true
          },
          {
-          "Name": "FriendlyFire",
-          "DisplayName": "FriendlyFire",
+          "Name": "Урон по своим",
+          "DisplayName": "Урон по своим",
           "Default": false
         }, 
         {
-          "Name": "Damage",
-          "DisplayName": "Damage",
+          "Name": "Урон",
+          "DisplayName": "Урон",
           "Default": true
         },  
       ]
