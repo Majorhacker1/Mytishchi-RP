@@ -32,7 +32,8 @@ Properties.GetContext().GameModeName.Value = "GameModes/Peace";
 red = GameMode.Parameters.GetBool("RedTeam");
 blue = GameMode.Parameters.GetBool("BlueTeam");
 if (red || !red && !blue) {
-	Teams.Add("Red", "МВД", { r: 150 });
+	
+ Teams.Add("Red", "МВД", { r: 150 });
 
  Teams.Add("Black","Люди,вне закона", { p: 150});
 
@@ -42,17 +43,18 @@ Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
 }
 if (blue || !red && !blue) {
 	Teams.Add("Blue", "Граждане", { b: 150 });
-	Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
+ Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
+
 	if(GameMode.Parameters.GetBool("ГНИО")){
 		var inventory = Inventory.GetContext();
 	
 	Teams.Get("Blue").Inventory.Main.Value = false;	
 
-Teams.Get("Blue").Inventory.Secondary.Value = false;
+ Teams.Get("Blue").Inventory.Secondary.Value = false;
 		
-Teams.Get("Blue").Inventory.Melee.Value = false;	  
+ Teams.Get("Blue").Inventory.Melee.Value = false;	  
 
-Teams.Get("Blue").Inventory.Explosive.Value = false;
+ Teams.Get("Blue").Inventory.Explosive.Value = false;
 	
 	Teams.Get("Blue").Inventory.Build.Value = false;
 	}
