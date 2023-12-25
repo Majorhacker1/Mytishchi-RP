@@ -52,7 +52,8 @@ if (blue || !red && !blue) {
 
 
 Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
- Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
+
+Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
 
 	if(GameMode.Parameters.GetBool("ГНИО")){
 		var inventory = Inventory.GetContext();
