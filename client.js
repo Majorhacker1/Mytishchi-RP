@@ -25,7 +25,7 @@ Build.GetContext().BuildModeEnable.Value = false;
 Build.GetContext().CollapseChangeEnable.Value = false;
 Build.GetContext().RenameMapEnable.Value = false;
 Build.GetContext().ChangeMapAuthorsEnable.Value = false;
-Build.GetContext().LoadMapEnable.Value = false;
+Build.GetContext().LoadMapEnable.Value = true;
 Build.GetContext().ChangeSpawnsEnable.Value = false;
 
 // Константа
