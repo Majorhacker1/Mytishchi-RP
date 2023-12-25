@@ -1,5 +1,5 @@
 // ��������� ��������� �������� �������
-Damage.FriendlyFire = true
+Damage.FriendlyFire = GameMode.Parameters.GetBool("FriendlyFire");
 Damage.GetContext().DamageOut.Value = true
 BreackGraph.OnlyPlayerBlocksDmg = GameMode.Parameters.GetBool("PartialDesruction");
 BreackGraph.WeakBlocks = GameMode.Parameters.GetBool("LoosenBlocks");
@@ -33,8 +33,11 @@ red = GameMode.Parameters.GetBool("RedTeam");
 blue = GameMode.Parameters.GetBool("BlueTeam");
 if (red || !red && !blue) {
 	Teams.Add("Red", "МВД", { r: 150 });
+
  Teams.Add("Black","Люди,вне закона", { p: 150});
+
  Teams.Add("Green","Военнослужащие",{ g: 150});	
+
 Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
 }
 if (blue || !red && !blue) {
