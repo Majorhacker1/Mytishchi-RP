@@ -44,6 +44,9 @@ if (red || !red && !blue)
 
  Teams.Add("Black", "Люди,вне закона",{ p: 150});
 
+ ContextedProperties.GetContext(" BlackTeam").Skin Type.Value = 2
+
+
  Teams.Add("Green", "Военнослужащие",{ g: 150});
 
 if (blue || !red && !blue) {
@@ -70,7 +73,7 @@ Teams.Get("Blue").Inventory.Main.Value = false;
 
  Teams.Get("Blue").Inventory.Explosive.Value = false;
 	
-	Teams.Get("Blue").Inventory.Build.Value = false;
+ Teams.Get("Blue").Inventory.Build.Value = false;
 	}
 }
 
