@@ -12,7 +12,7 @@
     "Parameters": {
       "Bool": [
         {
-          "Name": "МВД",
+          "Name": "Red",
           "DisplayName": "МВД",
           "Default": true
         },
