@@ -11,7 +11,7 @@ Build.GetContext().FlyEnable.Value = GameMode.Parameters.GetBool("Fly");
 // ������ ��������� ������ ��� �����
 BreackGraph.BreackAll = true;
 // ���������� ���������� ������
-Ui.GetContext().QuadsCount.Value = true;
+Ui.GetContext().QuadsCount.Value = false;
 // ��� ������������ �����
 Build.GetContext().Pipette.Value = true;
 Build.GetContext().BalkLenChange.Value = false;
