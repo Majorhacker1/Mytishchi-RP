@@ -13,22 +13,22 @@
       "Bool": [
         {
           "Name": "RedTeam",
-          "DisplayName": "МВД",
+          "DisplayName": "МВДшник",
           "Default": true
         },
         {
           "Name": "BlueTeam",
-          "DisplayName": "Граждане",
+          "DisplayName": "Гражданин",
           "Default": true
         }, 
         {
           "Name": "GreenTeam",
-          "DisplayName": "Военнослужащие",
+          "DisplayName": "Военнослужащий",
           "Default": true
         }, 
         {
           "Name": "BlackTeam", 
-          "DisplayName": " Люди,вне закона",
+          "DisplayName": "Рецидивист",
           "Default": true
          },
          {
