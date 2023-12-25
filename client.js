@@ -38,14 +38,17 @@ blue = GameMode.Parameters.GetBool("BlueTeam");
 black = GameMode.Parameters.GetBool("BlackTeam");
 green = GameMode.Parameters.GetBool("GreenTeam");
 
+if (red || !red && !blue)
 	
- Teams.Add("Red", "МВД", { r: 150 });
+ Teams.Add("Red", "МВД",{ r: 150 });
 
- Teams.Add("Black","Люди,вне закона", { p: 150});
+ Teams.Add("Black", "Люди,вне закона",{ p: 150});
 
- Teams.Add("Green","Военнослужащие",{ g: 150});
+ Teams.Add("Green", "Военнослужащие",{ g: 150});
 
- Teams.Add("Blue", "Граждане", { b: 150 });
+if (blue || !red && !blue) {
+
+ Teams.Add("Blue", "Граждане",{ b: 150 });
 
 
 Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
