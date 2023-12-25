@@ -2,7 +2,6 @@
 Damage.GetContext().FriendlyFire.Value= GameMode.Parameters.GetBool("Огонь По Своим");
 Damage.GetContext().DamageOut.Value = true
 BreackGraph.OnlyPlayerBlocksDmg = GameMode.Parameters.GetBool("PartialDesruction");
-contextedProperties.GetContext().SkinType.Value = 2 ("BlackTeam") 
 BreackGraph.WeakBlocks = GameMode.Parameters.GetBool("LoosenBlocks");
 Build.GetContext().FloodFill.Value = GameMode.Parameters.GetBool("FloodFill");
 Build.GetContext().FillQuad.Value = GameMode.Parameters.GetBool("FillQuad");
@@ -100,3 +99,4 @@ Build.GetContext().BlocksSet.Value = BuildBlocksSet.AllClear;
 Spawns.GetContext().RespawnTime.Value = 5;
 
 // Скины
+Teams.Get("black").contextedProperties.GetContext().SkinType.Value = 2 
