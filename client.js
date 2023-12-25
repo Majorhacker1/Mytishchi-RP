@@ -33,10 +33,10 @@ Properties.GetContext().GameModeName.Value = "GameModes/Mytishchi RP";
 
 
 // Команды
-red = GameMode.Parameters.GetBool("RedTeam");
-blue = GameMode.Parameters.GetBool("BlueTeam");
-black = GameMode.Parameters.GetBool("BlackTeam");
-green = GameMode.Parameters.GetBool("GreenTeam");
+var red = GameMode.Parameters.GetBool("RedTeam");
+var blue = GameMode.Parameters.GetBool("BlueTeam");
+var black = GameMode.Parameters.GetBool("BlackTeam");
+var green = GameMode.Parameters.GetBool("GreenTeam");
 
 if (red || !red && !blue)
 	
@@ -44,7 +44,7 @@ if (red || !red && !blue)
 
  Teams.Add("Black", "Рецидивист",{ p: 150});
 
-contextedProperties.GetContext(blackTeam).SkinType.Value = 2 
+contextedProperties.GetContext(black).SkinType.Value = 2 
 
  Teams.Add("Green", "Военнослужащий",{ g: 150});
 
