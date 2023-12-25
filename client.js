@@ -99,5 +99,3 @@ Build.GetContext().BlocksSet.Value = BuildBlocksSet.AllClear;
 Spawns.GetContext().RespawnTime.Value = 5;
 
 // Скины
-
-contextedProperties.GetContext(" BlackTeam").SkinType.Value = 2
