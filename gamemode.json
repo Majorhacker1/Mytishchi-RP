@@ -42,8 +42,8 @@
           "Default": true
         },
         {
-          "Name": "Граждане не имеют оружия",
-          "DisplayName": "Граждане не имеют оружия",
+          "Name": "ГНИО",
+          "DisplayName": "ГНИО",
           "Default": true
         },   
       ]
