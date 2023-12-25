@@ -31,6 +31,8 @@ Properties.GetContext().GameModeName.Value = "GameModes/Peace";
 // ������� �������
 red = GameMode.Parameters.GetBool("RedTeam");
 blue = GameMode.Parameters.GetBool("BlueTeam");
+black = GameMode.Parameters.GetBool('BlackTeam");
+Green = GameMode.Parameters.GetBool("GreenTeam");
 if (red || !red && !blue) {
 	
  Teams.Add("Red", "МВД", { r: 150 });
