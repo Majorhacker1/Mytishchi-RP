@@ -44,9 +44,6 @@ if (red || !red && !blue)
 
  Teams.Add("Black", "Люди,вне закона",{ p: 150});
 
- ContextedProperties.GetContext(" BlackTeam").SkinType.Value = 2
-
-
  Teams.Add("Green", "Военнослужащие",{ g: 150});
 
 if (blue || !red && !blue) {
@@ -100,3 +97,7 @@ Build.GetContext().BlocksSet.Value = BuildBlocksSet.AllClear;
 
 // Время возраждения
 Spawns.GetContext().RespawnTime.Value = 5;
+
+// Скины
+
+ContextedProperties.GetContext(" BlackTeam").SkinType.Value = 2
