@@ -40,7 +40,7 @@ Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
 if (blue || !red && !blue) {
 	Teams.Add("Blue", "Граждане", { b: 150 });
 	Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
-	if(GameMode.Parameters.GetBool("BlueHasNothing")){
+	if(GameMode.Parameters.GetBool("Граждане не имеют оружие")){
 		var inventory = Inventory.GetContext();
 	
 	Teams.Get("Граждане").Inventory.Main.Value = false;	
