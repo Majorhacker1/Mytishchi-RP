@@ -1,7 +1,7 @@
 {
     "Name": "Mytishchi RP - Beta Version",
     "Description": "Бета версия, РП режима от ᎷᎯᏠᎾᏒ ᏕᎾᏰᏒ",
-    "StartClientVersion": 512,
+    "StartClientVersion": 517,
     "ApiVersion": 2,
     "MapLists__": [
       {
