@@ -40,7 +40,12 @@
           "Name": "Урон",
           "DisplayName": "Урон",
           "Default": true
-        },  
+        },
+        {
+          "Name": "Граждане не имеют оружия",
+          "DisplayName": "Граждане не имеют оружия",
+          "Default": true
+        },   
       ]
     }
   }
