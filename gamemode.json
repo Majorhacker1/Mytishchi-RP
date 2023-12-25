@@ -32,8 +32,8 @@
           "Default": true
          },
          {
-          "Name": "Урон по своим",
-          "DisplayName": "Урон по своим",
+          "Name": "Огонь По Своим",
+          "DisplayName": "Огонь Ро Своим",
           "Default": false
         }, 
         {
