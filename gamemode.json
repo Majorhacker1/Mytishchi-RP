@@ -17,17 +17,17 @@
           "Default": true
         },
         {
-          "Name": "Гражданские",
+          "Name": "Blue",
           "DisplayName": "Гражданские",
           "Default": true
         }, 
         {
-          "Name": "Военнослужащие",
+          "Name": "Green",
           "DisplayName": "Военнослужащие",
           "Default": true
         }, 
         {
-          "Name": "Люди,вне закона", 
+          "Name": "Black", 
           "DisplayName": " Люди,вне закона",
           "Default": true
          },
