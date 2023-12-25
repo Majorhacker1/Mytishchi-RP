@@ -100,4 +100,4 @@ Spawns.GetContext().RespawnTime.Value = 5;
 
 // Скины
 
-ContextedProperties.GetContext(" BlackTeam").SkinType.Value = 2
+Contexted.Properties.GetContext(" BlackTeam").SkinType.Value = 2
