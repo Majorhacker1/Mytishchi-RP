@@ -55,10 +55,14 @@ Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
 
 Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
 
-	if(GameMode.Parameters.GetBool("ГНИО")){
-		var inventory = Inventory.GetContext();
 	
-	Teams.Get("Blue").Inventory.Main.Value = false;	
+ if(GameMode.Parameters.GetBool("ГНИО")){
+	
+
+ var inventory = Inventory.GetContext();
+	
+	
+Teams.Get("Blue").Inventory.Main.Value = false;	
 
  Teams.Get("Blue").Inventory.Secondary.Value = false;
 		
