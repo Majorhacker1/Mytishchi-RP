@@ -12,22 +12,22 @@
     "Parameters": {
       "Bool": [
         {
-          "Name": " TeamRed",
+          "Name": "RedTeam",
           "DisplayName": "МВД",
           "Default": true
         },
         {
-          "Name": "TeamBlue",
+          "Name": "BlueTeam",
           "DisplayName": "Гражданские",
           "Default": true
         }, 
         {
-          "Name": "Green",
+          "Name": "GreenTeam",
           "DisplayName": "Военнослужащие",
           "Default": true
         }, 
         {
-          "Name": "Black", 
+          "Name": "BlackTeam", 
           "DisplayName": " Люди,вне закона",
           "Default": true
          },
