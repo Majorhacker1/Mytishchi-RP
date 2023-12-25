@@ -60,10 +60,10 @@ Ui.getContext().Hint.Value = "Добро пожаловать в Мытищи Р
 
 // ������������ ���������
 var inventory = Inventory.GetContext();
-inventory.Main.InfinityValue = true;
-inventory.Secondary.InfinityValue = true;
+inventory.MainInfinity.Value = true;
+inventory.SecondaryInfinity.Value = true;
 inventory.Melee.Value = true;
-inventory.Explosive.InfinityValue = true;
+inventory.ExplosiveInfinity.Value = true;
 inventory.Build.Value = true;
 inventory.BuildInfinity.Value = true;
 
