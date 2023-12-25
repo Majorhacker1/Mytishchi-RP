@@ -44,7 +44,7 @@ if (red || !red && !blue)
 
  Teams.Add("Black", "Люди,вне закона",{ p: 150});
 
- ContextedProperties.GetContext(" BlackTeam").Skin Type.Value = 2
+ ContextedProperties.GetContext(" BlackTeam").SkinType.Value = 2
 
 
  Teams.Add("Green", "Военнослужащие",{ g: 150});
