@@ -26,14 +26,16 @@ Build.GetContext().ChangeMapAuthorsEnable.Value = false;
 Build.GetContext().LoadMapEnable.Value = true;
 Build.GetContext().ChangeSpawnsEnable.Value = false;
 
-// ��������� ����
+// Название режима
 Properties.GetContext().GameModeName.Value = "GameModes/Peace";
-// ������� �������
+
+
+// Команды
 red = GameMode.Parameters.GetBool("RedTeam");
 blue = GameMode.Parameters.GetBool("BlueTeam");
 black = GameMode.Parameters.GetBool("BlackTeam");
 green = GameMode.Parameters.GetBool("GreenTeam");
-if (red || !red && !blue) {
+
 	
  Teams.Add("Red", "МВД", { r: 150 });
 
@@ -41,10 +43,10 @@ if (red || !red && !blue) {
 
  Teams.Add("Green","Военнослужащие",{ g: 150});	
 
-Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
-}
-if (blue || !red && !blue) {
 	Teams.Add("Blue", "Граждане", { b: 150 });
+
+
+Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
  Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
 
 	if(GameMode.Parameters.GetBool("ГНИО")){
