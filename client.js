@@ -10,8 +10,10 @@ Build.GetContext().FlyEnable.Value = GameMode.Parameters.GetBool("Fly");
 
 // Разрушаемость
 BreackGraph.BreackAll = true;
+
 // Счётчик прямоугольников
 Ui.GetContext().QuadsCount.Value = false;
+
 // Интерфейс и функционал
 Build.GetContext().Pipette.Value = true;
 Build.GetContext().BalkLenChange.Value = false;
@@ -64,15 +66,16 @@ Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
 	}
 }
 
-// ��������� ���� � ������� �� �������
+// Функционал N1
 Teams.OnRequestJoinTeam.Add(function(player,team){team.Add(player);});
-// ����� �� ����� � �������
+
+// Финкционал N2
 Teams.OnPlayerChangeTeam.Add(function(player){ player.Spawns.Spawn()});
 
-// ������ ���������
+// Приветствующая таблица
 Ui.getContext().Hint.Value = "Добро пожаловать в Мытищи РП";
 
-// ������������ ���������
+// Инвентарь
 var inventory = Inventory.GetContext();
 inventory.MainInfinity.Value = true;
 inventory.SecondaryInfinity.Value = true;
@@ -81,8 +84,8 @@ inventory.ExplosiveInfinity.Value = true;
 inventory.Build.Value = true;
 inventory.BuildInfinity.Value = true;
 
-// ��������� ��� ������ �����
+// Функционал N3
 Build.GetContext().BlocksSet.Value = BuildBlocksSet.AllClear;
 
-// ������������ �����
+// Время возраждения
 Spawns.GetContext().RespawnTime.Value = 5;
