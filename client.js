@@ -33,10 +33,10 @@ Properties.GetContext().GameModeName.Value = "GameModes/Mytishchi RP";
 
 
 // Команды
-blue = GameMode.Parameters.GetBool("BlueTeam") 
-red = GameMode.Parameters.GetBool("RedTeam") 
-black = GameMode.Parameters.GetBool("BlackTeam") 
-green = GameMode.Parameters.GetBool("GreenTeam") 
+blue = GameMode.Parameters.GetBool("BlueTeam");
+red = GameMode.Parameters.GetBool("RedTeam");
+black = GameMode.Parameters.GetBool("BlackTeam");
+green = GameMode.Parameters.GetBool("GreenTeam");
 
 if (red || !red && !blue)
 	
