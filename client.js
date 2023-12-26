@@ -88,7 +88,7 @@ var inventory = Inventory.GetContext();
 inventory.MainInfinity.Value = true;
 inventory.SecondaryInfinity.Value = true;
 inventory.Melee.Value = true;
-inventory.ExplosiveInfinity.Value = true;
+inventory.Explosive.Value = true;
 inventory.Build.Value = true;
 inventory.BuildInfinity.Value = true;
 
