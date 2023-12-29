@@ -13,7 +13,7 @@
       "Bool": [
         {
           "Name": "RedTeam",
-          "DisplayName": "МВДшник",
+          "DisplayName": "МВД и Росгвардия",
           "Default": true
         },
         {
