@@ -18,17 +18,17 @@
         },
         {
           "Name": "BlueTeam",
-          "DisplayName": "Гражданин",
+          "DisplayName": "Граждане",
           "Default": true
         }, 
         {
           "Name": "GreenTeam",
-          "DisplayName": "Военнослужащий",
+          "DisplayName": "Военнослужащие",
           "Default": true
         }, 
         {
           "Name": "BlackTeam", 
-          "DisplayName": "Рецидивист",
+          "DisplayName": "Рецидивисты",
           "Default": true
          },
          {
